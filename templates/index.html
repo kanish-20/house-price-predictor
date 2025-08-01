@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Predictor App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: burlywood;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            padding-top: 15px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-radius: 4px;
+        }
+        h1{
+            font-family: cursive;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>House Price Predictor</h1>
+    <form method="POST">
+        <div class="form-group">
+            <label for="rooms">Number of Bedroom:</label>
+            <input  id="bedroom" name="bedroom" required min="1" max="10">
+        </div>
+        
+        <div class="form-group">
+            <label for="Area">Area(squarefeet):</label>
+           <input  id="Area" name="Area" required min="500" max="10000">
+        </div>
+        
+        <button type="submit">Predict</button>
+    </form>
+    
+        {% if prediction %}
+    <div class="result">
+        <strong>Estimated House Price: ₹ {{ prediction }} Lakhs</strong>
+    </div>
+{% endif %}
+    
+    
+    
+</body>
+</html>
