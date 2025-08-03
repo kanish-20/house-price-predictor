@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction App
+#  House Price Prediction App
 
 A simple web application that predicts the price of a house based on user inputs like number of rooms, location, area, etc., using a **Linear Regression** model.
 
@@ -22,7 +22,7 @@ Make sure the following are installed:
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 ### 1. Clone the Repository
 
