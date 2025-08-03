@@ -90,7 +90,7 @@ house-price-predictor/
 
 ---
 
-##Future Improvements
+## Future Improvements
 
 -Add advanced features like location, property type
 
@@ -102,7 +102,7 @@ house-price-predictor/
 
 ---
 
-##Step-by-Step Guide
+## Step-by-Step Guide
 
 Step 1: Input Form
 ![WhatsApp Image 2025-08-03 at 21 52 51](https://github.com/user-attachments/assets/115f44ca-0b9a-43fa-9525-1ad8cc22bb23)
