@@ -72,9 +72,10 @@ http://127.0.0.1:5000
 
 ---
 
-###house-price-predictor/
-
+## File Structure
 ```
+house-price-predictor/
+
 ├── app.py # Flask web app
 ├── train_model.py # Script to train and save the model
 ├── model.pkl # Saved Linear Regression model
@@ -89,19 +90,19 @@ http://127.0.0.1:5000
 
 ---
 
-###Future Improvements
+##Future Improvements
 
-Add advanced features like location, property type
+-Add advanced features like location, property type
 
-Use other models like Ridge, Lasso, ElasticNet for comparison
+-Use other models like Ridge, Lasso, ElasticNet for comparison
 
-Deploy the app on Render or Hugging Face Spaces
+-Deploy the app on Render or Hugging Face Spaces
 
-Improve UI with Bootstrap or React
+-Improve UI with Bootstrap or React
 
 ---
 
-###Step-by-Step Guide
+##Step-by-Step Guide
 
 Step 1: Input Form
 ![WhatsApp Image 2025-08-03 at 21 52 51](https://github.com/user-attachments/assets/115f44ca-0b9a-43fa-9525-1ad8cc22bb23)
